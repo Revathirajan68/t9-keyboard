@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-import { keysArray } from "../assets/keysJson";
+import { keysArray } from "../assets/config/keysJson";
 
 // components
 import Button from "./button";
@@ -40,7 +40,7 @@ const T9Keyboard = () => {
         const { key, convertedValues } = content
         clearTimeout(longPressTimer.current);
         if (isLongPressed) return;
-        
+
         if (timer.current) {
             clearTimeout(timer.current);
         }

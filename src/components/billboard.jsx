@@ -2,12 +2,12 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 
-import Image1 from '../assets/image1.jpg';
-import Image2 from '../assets/image2.jpg';
-import Image3 from '../assets/image3.jpg';
-import Image4 from '../assets/image4.jpg';
-import Video1 from '../assets/video1.mp4';
-import Video2 from '../assets/video2.mp4';
+import Image1 from '../assets/image/image1.jpg';
+import Image2 from '../assets/image/image2.jpg';
+import Image3 from '../assets/image/image3.jpg';
+import Image4 from '../assets/image/image4.jpg';
+import Video1 from '../assets/image/video1.mp4';
+import Video2 from '../assets/image/video2.mp4';
 
 const assetsData = [
   { type: 'image', source: Image1 },
