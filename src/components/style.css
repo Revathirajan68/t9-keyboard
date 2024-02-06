@@ -1,0 +1,86 @@
+/* button style */
+.number-button {
+    /* display: inline-block;
+    padding: 0px 32px;
+    border: 0;
+    text-decoration: none;
+    /* border-radius: 15px; */
+    /* border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 12px solid rgba(54, 52, 52, 0.1); */
+    /* backdrop-filter: blur(30px); */
+    /* color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer; */ 
+    /* text-transform: uppercase; */
+    /* background:linear-gradient(135deg, #190019, #2b124c, #522b5b, #854f6c, #dfb6b2, #fbe4d8) no-repeat top center/cover; */
+
+    /* display: inline-block;
+    padding: 0px 32px;
+    border: 0;
+    text-decoration: none; */
+    /* border-radius: 15px; */
+    /* border-radius: 50%;
+    background-color: #e5e4e4;
+    border: 12px solid rgba(54, 52, 52, 0.5); */
+    /* border: 12px solid rgba(43, 18, 76, 0.8); */
+    /* backdrop-filter: blur(30px); */
+    /* color: #000;
+    font-weight: 600;
+    font-size: 14px; */
+    /* box-shadow: inset 0 0 10px #5d5656; */
+    /* box-shadow: inset 0 0 10px #5d5656;
+    letter-spacing: 2px;
+    cursor: pointer; */
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 5px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #e5e4e4;
+    border: 10px solid rgba(54, 52, 52, 0.5);
+    color: #000;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    box-shadow: inset 0 0 10px;
+    cursor: pointer;
+
+}
+
+.number-button.rotate-left{
+    rotate: -20deg;
+}
+
+.number-button.rotate-right{
+    rotate: 20deg;
+}
+
+.number-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.asterisk{
+    font-size: 26px;
+    text-align: center;
+    line-height: 20px;
+}
+.alphabets{
+    margin: 0;
+}
+
+/* input styles */
+.input {
+    width: 95%;
+    height: 35px;
+    margin: 0 0 20px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+.input:focus{
+    background-color: rgba(255, 255, 255, 0.2);
+}
